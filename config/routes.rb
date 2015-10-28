@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   get 'contact' => 'static_pages#contact'
   resources :microposts
   resources :users
-  resources :users
+  resources :user
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
